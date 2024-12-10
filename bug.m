@@ -1,0 +1,1 @@
+In Objective-C, a tricky error can occur when dealing with KVO (Key-Value Observing) and object lifecycles.  If an observer is not removed before the observed object is deallocated, it can lead to crashes or unexpected behavior. This is because the observer attempts to access a deallocated object.
